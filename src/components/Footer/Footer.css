@@ -1,0 +1,21 @@
+/* .footer {
+  background-color: #343a40;
+  color: #fff;
+  padding: 15px 20px;
+  text-align: center;
+  font-size: 0.9em;
+  box-shadow: 0 -2px 8px #0000001a;
+  flex-shrink: 0;
+  width: 100%;
+} */
+
+.footer {
+  background-color: #343a40;
+  color: #fff;
+  padding: 2vh 4vw;
+  text-align: center;
+  font-size: 0.9em;
+  box-shadow: 0 -0.5vh 1vh #0000001a;
+  flex-shrink: 0;
+  width: 100%;
+}

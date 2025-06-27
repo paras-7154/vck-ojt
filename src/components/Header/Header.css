@@ -1,0 +1,135 @@
+/* .navbar {
+  background-color: #007bff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 8px #da4c4c1a;
+  flex-shrink: 0;
+  padding: 2px 10px;
+}
+.navbar h3 {
+  font-size: xx-large;
+  font-weight: 600;
+  word-spacing: 1px;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+.nav-item {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 200;
+  font-size: 1.1em;
+  transition: color 0.2s ease-in-out;
+}
+.nav-item:hover {
+  color: #e0e0e0;
+  border-bottom: 2px solid #e0e0e0;
+}
+.btn {
+  display: inline-block;
+  background-color: #28a745;
+  color: #fff;
+  padding: 12px 25px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: 700;
+  transition: background-color 0.3s ease;
+}
+.btn:hover {
+  background-color: #218838;
+}
+.right-nav {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+} */
+
+.navbar {
+  background-color: #007bff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 0.5vh 1vh #da4c4c1a;
+  flex-shrink: 0;
+  padding: 1vh 4vw;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.navbar h3 {
+  font-size: 2.5vw;
+  font-weight: 600;
+  word-spacing: 0.2vw;
+  color: white;
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+.nav-item {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 200;
+  font-size: 1.1em;
+  transition: color 0.2s ease-in-out;
+  padding: 1vh 1vw;
+}
+
+.nav-item:hover {
+  color: #e0e0e0;
+  border-bottom: 0.2vh solid #e0e0e0;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #28a745;
+  color: #fff;
+  padding: 1.2vh 3vw;
+  border-radius: 0.5vh;
+  text-decoration: none;
+  font-weight: 700;
+  transition: background-color 0.3s ease;
+  font-size: 1em;
+}
+
+.btn:hover {
+  background-color: #218838;
+}
+
+.right-nav {
+  display: flex;
+  align-items: center;
+  gap: 3vw;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+hamburger-menu {
+  display: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  position: relative;
+  z-index: 1002;
+}
+.hamburger-icon {
+  display: block;
+  width: 30px;
+  height: 3px;
+  background-color: #fff;
+  margin: 6px 0;
+  transition: all 0.3s ease;
+}
+.drawer-nav {
+  position: fixed;
+  top: 0;
+  right: -300px;
+  width: 200px;
+  height: 100%;
+  background-color: #f8f9fa;
+  box-shadow: -5px 0 15px #0003;
+  transition: right 0.3s ease-in-out;
+  z-index: 1001;
+  display: flex;
+  flex-direction: column;
+  padding-top: 60px;
+}
