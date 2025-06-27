@@ -1,5 +1,5 @@
 import Header from "../components/Header/Header";
-import "../styles/pages.css";
+import "../styles/Pages.css";
 const ContactPage = () => {
   return (
     <div>

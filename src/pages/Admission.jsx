@@ -1,4 +1,4 @@
-import "../styles/pages.css";
+import "../styles/Pages.css";
 const Admission = () => {
   return (
     <div>
