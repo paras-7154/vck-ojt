@@ -165,8 +165,8 @@ const ChatbotComponent = () => {
             )}
             {!isOnline && (
               <p className="chatbot-message offline-message">
-                :no_entry_sign:: You are currently offline. Please check your internet
-                connection.
+                :no_entry_sign:: You are currently offline. Please check your
+                internet connection.
               </p>
             )}
             <div className="chatbot-messages" ref={chatMessagesRef}>
@@ -177,7 +177,9 @@ const ChatbotComponent = () => {
                   )}
                   <p className={`${message.sender}-message`}>{message.text}</p>
                   {message.sender === "user" && (
-                    <div className="avatar user-avatar">:bust_in_silhouette:</div>
+                    <div className="avatar user-avatar">
+                      :bust_in_silhouette:
+                    </div>
                   )}
                 </div>
               ))}

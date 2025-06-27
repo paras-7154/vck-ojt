@@ -12,7 +12,7 @@ const HomePage = () => {
           {/* This is Header */}
           <div className="hero-banner">
             <div className="banner-img">
-              <img src="./public/images/college-banner.png" />
+              <img src="/images/college-banner.png" />
             </div>
             <div class="banner-section">
               <h1>Welcome to Vivekanand College!</h1>
@@ -69,11 +69,11 @@ const HomePage = () => {
           <div class="image-gallery">
             <img
               alt="Students studying in library"
-              src="./public/images/campus.jpg"
+              src="/images/campus.jpg"
             />
             <img
               alt="Students on campus ground"
-              src="./public/images/students.jpeg"
+              src="/images/students.jpeg"
             />
           </div>
 
